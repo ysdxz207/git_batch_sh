@@ -16,7 +16,7 @@ sh git_batch.sh -f git checkout branchname
 2、扩展：
 > 可以在git_bash或cygwin中使用别名
 
-首先将git_batch_sh.sh放到用户目录，创建.bashrc文件：
+首先将git_batch_sh.sh放到用户目录，并在用户目录创建.bashrc文件：
 ```
 export GIT_BATCH_FILE=$HOME"/git_batch_sh.sh"
 alias bs='
