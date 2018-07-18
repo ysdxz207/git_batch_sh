@@ -26,7 +26,7 @@ batch(){
 
 alias bit='
 batch(){
-	sh "$GIT_BATCH_FILE" git $1;
+	sh "$GIT_BATCH_FILE" git ${@:1};
 };batch'
 ```
 然后就可以使用`bs`批量执行`git status`命令啦
