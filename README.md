@@ -28,13 +28,13 @@ batch(){
 
 alias bit='
 batch1(){
-	echo sh "$GIT_BATCH_FILE" git ${@:1};
+	sh "$GIT_BATCH_FILE" git ${@:1};
 };batch1';
 
 
 alias batch='
 batch2(){
-	echo sh "$GIT_BATCH_FILE" ${@:1};
+	sh "$GIT_BATCH_FILE" ${@:1};
 };batch2';
 
 ```
