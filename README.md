@@ -41,6 +41,7 @@ batch2(){
 然后就可以使用`bs`批量执行`git status`命令
 
 也可以这样执行`bit status`，`bit checkout -b branchname`等等
+
 还可以：`batch pwd`，`batch rm *.iml`等等
 
 3、题外话
