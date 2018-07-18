@@ -1,5 +1,5 @@
 #批量git操作v2
-#Author:Moses
+#Author:W.feihong
 #使用方法：sh git_batch.sh git checkout branchname
 #报错不终止，继续执行：sh git_batch.sh -f git checkout branchname
 
