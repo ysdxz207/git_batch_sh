@@ -24,17 +24,19 @@ export GIT_BATCH_FILE=$HOME"/git_batch_sh.sh"
 alias bs='
 batch(){
 	sh "$GIT_BATCH_FILE" git status;
-};batch'
+};batch';
 
 alias bit='
-batch(){
-	sh "$GIT_BATCH_FILE" git ${@:1};
-};batch'
+batch1(){
+	echo sh "$GIT_BATCH_FILE" git ${@:1};
+};batch1';
+
 
 alias batch='
-batch(){
-	sh "$GIT_BATCH_FILE" ${@:1};
-};batch'
+batch2(){
+	echo sh "$GIT_BATCH_FILE" ${@:1};
+};batch2';
+
 ```
 然后就可以使用`bs`批量执行`git status`命令
 
