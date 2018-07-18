@@ -1,5 +1,5 @@
 
-git 批量切分支工具,shell版
+git 批量操作工具,shell版
 
 当然也支持其他shell命令
 
