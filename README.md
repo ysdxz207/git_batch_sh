@@ -38,7 +38,7 @@ batch2(){
 };batch2';
 
 ```
-然后就可以使用`bs`批量执行`git status`命令
+重新打开git_bash或cygwin窗口，然后就可以使用`bs`批量执行`git status`命令了
 
 也可以这样执行`bit status`，`bit checkout -b branchname`等等
 
