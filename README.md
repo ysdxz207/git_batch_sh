@@ -21,10 +21,6 @@ sh git_batch.sh -f git checkout branchname
 首先将git_batch_sh.sh放到用户目录，并在用户目录创建.bashrc文件：
 ```
 export GIT_BATCH_FILE=$HOME"/git_batch_sh.sh"
-alias bs='
-batch(){
-	sh "$GIT_BATCH_FILE" git status;
-};batch';
 
 alias bit='
 batch1(){
@@ -37,10 +33,9 @@ batch2(){
 	sh "$GIT_BATCH_FILE" ${@:1};
 };batch2';
 
-```
-重新打开git_bash或cygwin窗口，然后就可以使用`bs`批量执行`git status`命令了
 
-也可以这样执行`bit status`，`bit checkout -b branchname`等等
+```
+重新打开git_bash或cygwin窗口，然后就可以这样执行`bit status`，`bit checkout -b branchname`等等
 
 还可以：`batch pwd`，`batch rm *.iml`等等
 
