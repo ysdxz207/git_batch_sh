@@ -41,4 +41,4 @@ batch2(){
 
 3、题外话
 
-你也可以把git_bash集成到idea中使用，具体参考：[将idea的Terminal替换为git_bash](http://hupubao.win/#/article?id=469084492376571904)
+你也可以把git_bash集成到idea中使用，具体参考：[将idea的Terminal替换为git_bash](https://hupubao.com/archives/%E5%B0%86idea%E7%9A%84Terminal%E6%9B%BF%E6%8D%A2%E4%B8%BAgit_bash)
